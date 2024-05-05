@@ -15,7 +15,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Users />} />
         <Route path="/places/new" element={<NewPlace />} />
-
       </Routes>
       <Navigate to="/" replace={true} />
     </Router>
